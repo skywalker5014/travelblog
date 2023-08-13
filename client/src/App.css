@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.navContainer {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+nav {
+  background-color: rgb(10, 1, 13);
+  margin-bottom: 10px;
+  color: white;
+}
+
+.p-scrollbar-transparent {
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+
+.p-scrollbar-transparent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.p-scrollbar-transparent::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
